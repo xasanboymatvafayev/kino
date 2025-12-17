@@ -1,5 +1,4 @@
 python -m venv .venv
+source .venv/bin/activate  # yoki Windows: .venv\Scripts\activate
 pip install --upgrade pip setuptools wheel
-.venv\Scripts\activate
-
 pip install -r requirements.txt
